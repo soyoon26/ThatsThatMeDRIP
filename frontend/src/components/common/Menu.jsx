@@ -11,6 +11,7 @@ const Menu = () => {
   const handleAbout = () => {};
   return (
     <div className="h-screen w-80 absolute right-0 bg-menu-color pl-10">
+      <div className="absolute top-5 right-8 text-xl">X</div>
       <div className="flex mt-10">
         <img className="w-8 h-7 mr-1 mt-2" src={menucat} />
         <div className="text-logo-orange text-3xl font-bold ">Menu</div>
