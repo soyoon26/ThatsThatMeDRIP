@@ -7,6 +7,7 @@ export default {
         "bg-beige": "#E5DECC",
         "bg-sky": "#DBEFED",
         "logo-orange": "#FC5230",
+        "menu-color": "#BBD8D5",
       },
     },
   },
