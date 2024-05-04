@@ -1,8 +1,18 @@
 const AboutPage = () => {
   return (
-    <div>
+    <div className="bg-bg-beige">
+      <svg>
+        <line
+          x1="0"
+          y1="50%"
+          x2="100%"
+          y2="50%"
+          stroke="orange"
+          strokeWidth="2"
+        />
+      </svg>
       <div>About</div>
-      <div>
+      <div className="text-logo-orange">
         최애의 SNS에 댓글을 달던 중 드립(밈)을 사용하고 싶은데 주어를 하나 하나
         수정하지 않아도 바꿔주면 얼마나 좋을까? 하고 생각하다 최애 적용 드립
         생성 사이트를 직접 개발하게 되었습니다. 새로 생겨나는 드립들은 업데이트
