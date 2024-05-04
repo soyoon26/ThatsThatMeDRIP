@@ -1,12 +1,11 @@
 /** @type {import('tailwindcss').Config} */
-
 export default {
-  content: [],
+  content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
-        "bg-sky": "#DBEFED",
         "bg-beige": "#E5DECC",
+        "bg-sky": "#DBEFED",
         "logo-orange": "#FC5230",
       },
     },
